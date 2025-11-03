@@ -1,0 +1,219 @@
+/*=============================
+ POKÉMON THEME VARIABLES
+=============================*/
+:root {
+  --pk-yellow: #FFCB05;
+  --pk-blue: #2A75BB;
+  --pk-red: #D62828;
+  --pk-slate: #1A1A1A;
+  --pk-light: #F7F7F7;
+  --steel-dark: #2f3542;
+  --steel-light: #576574;
+  --badge-glow: #ffd32a;
+  --border-glow: 0 0 10px var(--pk-yellow), 0 0 20px var(--pk-blue);
+  --font-primary: 'Work Sans', sans-serif;
+}
+
+/*=============================
+ GLOBAL
+=============================*/
+body {
+  margin: 0;
+  padding: 0;
+  background: var(--steel-dark);
+  color: var(--pk-light);
+  font-family: var(--font-primary);
+}
+
+/* Smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+/*=============================
+ HEADER
+=============================*/
+header {
+  width: 100%;
+  background: linear-gradient(90deg, var(--pk-blue), var(--pk-yellow));
+  padding: 20px 0;
+  text-align: center;
+  border-bottom: 3px solid var(--pk-yellow);
+}
+header h1 {
+  font-size: 2.8rem;
+  font-weight: 800;
+  color: var(--pk-slate);
+  text-shadow: var(--border-glow);
+  letter-spacing: 2px;
+}
+
+/*=============================
+ INTRO SECTION
+=============================*/
+.intro {
+  text-align: center;
+  margin-bottom: 30px;
+}
+.intro img {
+  width: 100%;
+  max-height: 320px;
+  object-fit: cover;
+  border-radius: 12px;
+  border: 3px solid var(--pk-blue);
+  box-shadow: var(--border-glow);
+}
+.intro h1 {
+  font-size: 2rem;
+  margin-top: 12px;
+  color: var(--pk-yellow);
+  font-weight: 800;
+  text-shadow: var(--border-glow);
+}
+
+/*=============================
+ MAIN TITLE
+=============================*/
+main > h1 {
+  text-align: center;
+  font-size: 2.4rem;
+  margin-top: 10px;
+  color: var(--pk-yellow);
+  text-shadow: var(--border-glow);
+}
+
+/* Region intro paragraph */
+main > p {
+  text-align: center;
+  font-size: 1.1rem;
+  max-width: 900px;
+  margin: 10px auto 30px;
+  line-height: 1.6em;
+}
+
+/*=============================
+ NAV LIST (Gym roster menu)
+=============================*/
+.nav {
+  width: 90%;
+  max-width: 900px;
+  margin: 0 auto 40px;
+  padding: 20px;
+  background: var(--steel-light);
+  border-radius: 15px;
+  border: 2px solid var(--pk-yellow);
+  box-shadow: var(--border-glow);
+}
+.nav h2 {
+  text-align: center;
+  color: var(--pk-yellow);
+  text-shadow: var(--border-glow);
+}
+.nav ul {
+  list-style: none;
+  padding: 0;
+}
+.nav li {
+  margin: 8px 0;
+}
+.nav a {
+  text-decoration: none;
+  color: var(--pk-light);
+  font-weight: 600;
+  padding: 6px 10px;
+  display: block;
+  border-radius: 6px;
+  transition: 0.3s;
+}
+.nav a:hover {
+  background: var(--pk-yellow);
+  color: var(--steel-dark);
+  box-shadow: var(--border-glow);
+}
+
+/*=============================
+ SECTION TITLES
+=============================*/
+section h2 {
+  text-align: center;
+  font-size: 2rem;
+  margin-top: 25px;
+  margin-bottom: 10px;
+  color: var(--pk-yellow);
+  text-shadow: var(--badge-glow);
+}
+
+/*=============================
+ LEADER SECTIONS / CARDS
+=============================*/
+section {
+  width: 95%;
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 20px;
+  background: var(--steel-light);
+  border-radius: 15px;
+  border: 2px solid var(--pk-blue);
+  box-shadow: 0 0 10px black;
+}
+
+section img {
+  width: 200px;
+  display: block;
+  margin: 10px auto;
+  border-radius: 12px;
+  border: 2px solid var(--pk-yellow);
+  box-shadow: var(--border-glow);
+}
+
+/* Pokémon Team */
+section ul {
+  list-style: none;
+  padding: 0;
+}
+section ul li {
+  font-size: 1.05rem;
+  margin: 6px 0;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+section ul li img {
+  width: 100px;
+  height: 100px;
+  border-radius: 6px;
+  border: 2px solid var(--pk-blue);
+}
+
+/*=============================
+ FOOTER
+=============================*/
+footer {
+  width: 100%;
+  background: var(--steel-light);
+  color: var(--pk-light);
+  text-align: center;
+  padding: 15px 0;
+  margin-top: 40px;
+  border-top: 2px solid var(--pk-yellow);
+}
+
+/*=============================
+ RESPONSIVE
+=============================*/
+@media(max-width: 800px) {
+  .nav {
+    width: 95%;
+  }
+  section img {
+    width: 150px;
+  }
+}
+.mema h2{
+    text-align: center;
+    font-size: 2rem;
+    margin-top: 25px;
+    margin-bottom: 10px;
+    color: var(--pk-yellow);
+    text-shadow: var(--badge-glow);
+}
