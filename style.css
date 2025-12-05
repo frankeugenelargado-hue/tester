@@ -11,7 +11,6 @@
   --font-primary: 'Work Sans', sans-serif;
 }
 
-/* GLOBAL */
 body {
   margin: 0;
   padding: 0;
@@ -29,7 +28,7 @@ img {
   border: 3px solid var(--steel-light);
 }
 
-/* HEADER */
+
 header {
   width: 100%;
   background: linear-gradient(90deg, var(--pk-blue), var(--pk-yellow));
@@ -46,7 +45,7 @@ header h1 {
   letter-spacing: 2px;
 }
 
-/* NAVIGATION */
+
 .main-nav {
   width: 100%;
   display: flex;
@@ -87,7 +86,7 @@ header h1 {
   box-shadow: var(--border-glow);
 }
 
-/* INTRO BANNER */
+
 .intro img {
   max-height: 300px;
   object-fit: cover;
@@ -101,7 +100,7 @@ header h1 {
   text-shadow: 0 0 8px var(--pk-blue);
 }
 
-/* SECTION TITLES */
+
 section h2 {
   font-size: 2.2rem;
   text-align: center;
@@ -110,7 +109,7 @@ section h2 {
   text-shadow: var(--border-glow);
 }
 
-/* REGION CARDS */
+
 article {
   width: 260px;
   background: var(--steel-light);
@@ -141,13 +140,13 @@ article a {
   color: var(--pk-light);
 }
 
-/* ABOUT + RESOURCES PAGES STYLE COMPAT */
+
 section {
   width: 100%;
   max-width: 1100px;
 }
 
-/* ABOUT SECTION TEXT */
+
 #about p,
 .about-content p {
   margin: 0 auto 40px;
@@ -161,7 +160,7 @@ section {
   font-weight: 700;
 }
 
-/* RESOURCES */
+
 #resources ul,
 .resources-info ul {
   list-style: disc;
@@ -186,7 +185,7 @@ section {
   margin-top: 30px;
 }
 
-/* FOOTER */
+
 footer {
   width: 100%;
   background: var(--steel-light);
@@ -197,7 +196,7 @@ footer {
   color: var(--pk-light);
 }
 
-/* RESPONSIVE */
+
 @media(max-width: 700px) {
   header h1 {
     font-size: 2rem;
@@ -232,7 +231,7 @@ footer {
 }
 }
 
-/* Smooth Scroll */
+
 html {
   scroll-behavior: smooth;
 }

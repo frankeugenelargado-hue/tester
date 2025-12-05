@@ -1,6 +1,3 @@
-/*=============================
- POKÉMON THEME VARIABLES
-=============================*/
 :root {
   --pk-yellow: #FFCB05;
   --pk-blue: #2A75BB;
@@ -14,9 +11,7 @@
   --font-primary: 'Work Sans', sans-serif;
 }
 
-/*=============================
- GLOBAL
-=============================*/
+
 body {
   margin: 0;
   padding: 0;
@@ -25,14 +20,10 @@ body {
   font-family: var(--font-primary);
 }
 
-/* Smooth scrolling */
 html {
   scroll-behavior: smooth;
 }
 
-/*=============================
- HEADER
-=============================*/
 header {
   width: 100%;
   background: linear-gradient(90deg, var(--pk-blue), var(--pk-yellow));
@@ -48,9 +39,7 @@ header h1 {
   letter-spacing: 2px;
 }
 
-/*=============================
- INTRO SECTION
-=============================*/
+
 .intro {
   text-align: center;
   margin-bottom: 30px;
@@ -71,9 +60,7 @@ header h1 {
   text-shadow: var(--border-glow);
 }
 
-/*=============================
- MAIN TITLE
-=============================*/
+
 main > h1 {
   text-align: center;
   font-size: 2.4rem;
@@ -82,7 +69,7 @@ main > h1 {
   text-shadow: var(--border-glow);
 }
 
-/* Region intro paragraph */
+
 main > p {
   text-align: center;
   font-size: 1.1rem;
@@ -90,10 +77,6 @@ main > p {
   margin: 10px auto 30px;
   line-height: 1.6em;
 }
-
-/*=============================
- NAV LIST (Gym roster menu)
-=============================*/
 .nav {
   width: 90%;
   max-width: 900px;
@@ -131,9 +114,6 @@ main > p {
   box-shadow: var(--border-glow);
 }
 
-/*=============================
- SECTION TITLES
-=============================*/
 section h2 {
   text-align: center;
   font-size: 2rem;
@@ -143,9 +123,7 @@ section h2 {
   text-shadow: var(--badge-glow);
 }
 
-/*=============================
- LEADER SECTIONS / CARDS
-=============================*/
+
 section {
   width: 95%;
   max-width: 900px;
@@ -166,7 +144,7 @@ section img {
   box-shadow: var(--border-glow);
 }
 
-/* Pokémon Team */
+
 section ul {
   list-style: none;
   padding: 0;
@@ -185,9 +163,7 @@ section ul li img {
   border: 2px solid var(--pk-blue);
 }
 
-/*=============================
- FOOTER
-=============================*/
+
 footer {
   width: 100%;
   background: var(--steel-light);
@@ -198,10 +174,7 @@ footer {
   border-top: 2px solid var(--pk-yellow);
 }
 
-/*=============================
- RESPONSIVE
-=============================*/
-@media(max-width: 800px) {
+@media(max-width: 960px) {
   .nav {
     width: 95%;
   }
@@ -209,7 +182,7 @@ footer {
     width: 150px;
   }
   .nav li{
-    font-size: 1.2rem;
+    font-size: 160px;
   }
 }
 .mema h2{
