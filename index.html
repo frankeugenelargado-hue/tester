@@ -1,84 +1,90 @@
-<<<<<<< HEAD
+<!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>City Badge Chronicles</title>
-    <link rel="stylesheet" href="style.css">
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>City Badge Chronicles</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <header>
     <h1>City Badge Chronicles</h1>
   </header>
+
   <main>
     <section class="intro">
-      <img src="Images for the Site/Images Main/Welcome.jpg" alt="Welcome Banner">
+      <img src="Images for the Site/Images Main/Welcome.jpg" alt="Welcome banner showing Pokémon regions">
       <div class="Welcome">
-      <h1>Welcome to City Badge Chronicles</h1>
+        <h1>Welcome to City Badge Chronicles</h1>
       </div>
     </section>
-    <section >
-    <nav class="main-nav">
+
+    <nav class="main-nav" aria-label="Main navigation">
       <ul>
-        <li><a href="#regions">Home</a></li>
+        <li><a  href="#regions">Home</a></li>
         <li><a href="#about">About</a></li>
         <li><a href="#resources">Resources</a></li>
         <li><a href="#login">Login</a></li>
       </ul>
     </nav>
-    </section>
+
     <section class="Welcome">
-      <h2>Welcome to City Badge Chronicles</h2>
+      <h2>Explore Gyms by Region</h2>
     </section>
+
     <section id="regions">
       <h2>Featured Regions</h2>
-      <article class="kanto">
-        <a href="Kanto.html">
-        <h3>Kanto Regions</h3>
-        <img src="Images for the Site/Kanto/Preview.jpg" alt="Kanto Region Preview">
-        <p>The Kanto region features a unique scenery that comes along with diverse numbers of Pokemon.   </p>
-        </a>
-      </article>
-      <article class="johto">
-        <a href="Johto.html">
-        <h3>Johto Region</h3>
-        <img src="Images for the Site/Johto/Preview.png" alt="Johto Region Preview">
-        <p>The Johto region is known for its rich history and the introduction of new Pokemon species.</p>
-        </a>
-      </article>
-      <article class="Hoenn">
-        <a href="Hoenn.html">
-        <h3>Hoenn Region</h3>
-        <img src="Images for the Site/Hoenn/Preview.jfif" alt="Hoenn Region Preview">
-        <p>The Hoenn region is famous for its diverse landscapes, including lush forests and vast oceans.</p>
-        </a>
-      </article>
-      <article class="Sinnoh">
-        <a href="Sinnoh.html">
-        <h3>Sinnoh Region</h3>
-        <img src="Images for the Site/Sinnoh/Preview.png" alt="Sinnoh Region Preview">
-        <p>The Sinnoh region is characterized by its mountainous terrain and ancient legends.</p>
-        </a>
-      </article>
-      <article class="Unova">
-        <a href="Unova.html">
-        <h3>Unova Region</h3>
-        <img src="Images for the Site/Unova/Preview.png" alt="Unova Region Preview">
-        <p>The Unova region is inspired by modern metropolitan areas and features a wide variety of urban environments.</p>
-        </a>
-      </article>
-      <article class="Kalos">
-        <a href="Kalos.html">
-        <h3>Kalos Region</h3>
-        <img src="Images for the Site/Kalos/Preview.jfif" alt="Kalos Region Preview">
-        <p>The Kalos region is known for its fashion and culture, as well as its connection to Mega Evolution.</p>
-        </a>
-      </article>
+      <div class="card-grid">
+        <article class="kanto">
+          <a href="Kanto.html">
+            <h3>Kanto Region</h3>
+            <img src="Images for the Site/Kanto/Preview.jpg" alt="Kanto region preview">
+            <p>Classic gym roster with iconic rock, water, and electric leaders.</p>
+          </a>
+        </article>
+        <article class="johto">
+          <a href="Johto.html">
+            <h3>Johto Region</h3>
+            <img src="Images for the Site/Johto/Preview.png" alt="Johto region preview">
+            <p>Historic routes, new species, and balanced teams for every style.</p>
+          </a>
+        </article>
+        <article class="Hoenn">
+          <a href="Hoenn.html">
+            <h3>Hoenn Region</h3>
+            <img src="Images for the Site/Hoenn/Preview.jfif" alt="Hoenn region preview">
+            <p>Diverse climates from rainforests to seas; prepare for weather play.</p>
+          </a>
+        </article>
+        <article class="Sinnoh">
+          <a href="Sinnoh.html">
+            <h3>Sinnoh Region</h3>
+            <img src="Images for the Site/Sinnoh/Preview.png" alt="Sinnoh region preview">
+            <p>Mountain passes and legends; sturdy lineups with strong defenses.</p>
+          </a>
+        </article>
+        <article class="Unova">
+          <a href="Unova.html">
+            <h3>Unova Region</h3>
+            <img src="Images for the Site/Unova/Preview.png" alt="Unova region preview">
+            <p>Urban inspiration with modern tactics and varied team archetypes.</p>
+          </a>
+        </article>
+        <article class="Kalos">
+          <a href="Kalos.html">
+            <h3>Kalos Region</h3>
+            <img src="Images for the Site/Kalos/Preview.jfif" alt="Kalos region preview">
+            <p>Style meets strategy; explore Mega evolutions and fairy counters.</p>
+          </a>
+        </article>
+      </div>
     </section>
+
     <section id="about">
       <h2>About Us</h2>
-      <p>City Badge Chronicles is dedicated to providing comprehensive information about the various Pokémon regions, their gyms, and the challenges trainers face. Our mission is to help trainers of all levels navigate the exciting world of Pokémon and achieve their goals.</p>
+      <p>City Badge Chronicles shares gym lineups, leader strengths, and region flavor so trainers can plan winning teams across every league.</p>
     </section>
+
     <section id="resources">
       <h2>Images</h2>
       <ul>
@@ -101,126 +107,15 @@
         <li><a href="https://www.reddit.com/r/PokemonGames/">Pokémon Games Reddit</a></li>
       </ul>
     </section>
+
     <section id="login">
       <h2>Login</h2>
       <p>If you have an account, please <a href="login.html">login here</a> to access exclusive content and features.</p>
     </section>
-    </main>
-    <footer>
-      <p>&copy; 2024 City Badge Chronicles. All rights reserved.</p>
-    </footer>
+  </main>
 
+  <footer>
+    <p>&copy; 2024 City Badge Chronicles. All rights reserved.</p>
+  </footer>
 </body>
-=======
-<html lang="en">
-<head>
-    <title>City Badge Chronicles</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-  <header>
-    <h1>City Badge Chronicles</h1>
-  </header>
-  <main>
-    <section class="intro">
-      <img src="Images for the Site/Images Main/Welcome.jpg" alt="Welcome Banner">
-      <div class="Welcome">
-      <h1>Welcome to City Badge Chronicles</h1>
-      </div>
-    </section>
-    <section >
-    <nav class="main-nav">
-      <ul>
-        <li><a href="#regions">Home</a></li>
-        <li><a href="#about">About</a></li>
-        <li><a href="#resources">Resources</a></li>
-        <li><a href="#login">Login</a></li>
-      </ul>
-    </nav>
-    </section>
-    <section class="Welcome">
-      <h2>Welcome to City Badge Chronicles</h2>
-    </section>
-    <section id="regions">
-      <h2>Featured Regions</h2>
-      <article class="kanto">
-        <a href="Regions/Kanto.html">
-        <h3>Kanto Regions</h3>
-        <img src="Images for the Site/Kanto/Preview.jpg" alt="Kanto Region Preview">
-        <p>The Kanto region features a unique scenery that comes along with diverse numbers of Pokemon.   </p>
-        </a>
-      </article>
-      <article class="johto">
-        <a href="Regions/Johto.html">
-        <h3>Johto Region</h3>
-        <img src="Images for the Site/Johto/Preview.png" alt="Johto Region Preview">
-        <p>The Johto region is known for its rich history and the introduction of new Pokemon species.</p>
-        </a>
-      </article>
-      <article class="Hoenn">
-        <a href="Regions/Hoenn.html">
-        <h3>Hoenn Region</h3>
-        <img src="Images for the Site/Hoenn/Preview.jfif" alt="Hoenn Region Preview">
-        <p>The Hoenn region is famous for its diverse landscapes, including lush forests and vast oceans.</p>
-        </a>
-      </article>
-      <article class="Sinnoh">
-        <a href="Regions/Sinnoh.html">
-        <h3>Sinnoh Region</h3>
-        <img src="Images for the Site/Sinnoh/Preview.png" alt="Sinnoh Region Preview">
-        <p>The Sinnoh region is characterized by its mountainous terrain and ancient legends.</p>
-        </a>
-      </article>
-      <article class="Unova">
-        <a href="Regions/Unova.html">
-        <h3>Unova Region</h3>
-        <img src="Images for the Site/Unova/Preview.png" alt="Unova Region Preview">
-        <p>The Unova region is inspired by modern metropolitan areas and features a wide variety of urban environments.</p>
-        </a>
-      </article>
-      <article class="Kalos">
-        <a href="Regions/Kalos.html">
-        <h3>Kalos Region</h3>
-        <img src="Images for the Site/Kalos/Preview.jfif" alt="Kalos Region Preview">
-        <p>The Kalos region is known for its fashion and culture, as well as its connection to Mega Evolution.</p>
-        </a>
-      </article>
-    </section>
-    <section id="about">
-      <h2>About Us</h2>
-      <p>City Badge Chronicles is dedicated to providing comprehensive information about the various Pokémon regions, their gyms, and the challenges trainers face. Our mission is to help trainers of all levels navigate the exciting world of Pokémon and achieve their goals.</p>
-    </section>
-    <section id="resources">
-      <h2>Images</h2>
-      <ul>
-        <li><a href="https://www.pokemon.com/us/">Official Pokémon Website</a></li>
-        <li><a href="https://bulbapedia.bulbagarden.net/wiki/Main_Page">Bulbapedia - The Pokémon Wiki</a></li>
-        <li><a href="https://www.serebii.net/">Serebii.net - Pokémon News and Information</a></li>
-        <li><a href="https://www.pokemondb.net/">Pokémon Database</a></li>
-      </ul>
-      <h2>Data and Information</h2>
-      <ul>
-        <li><a href="https://bulbapedia.bulbagarden.net/wiki/Main_Page">Bulbapedia - The Pokémon Wiki</a></li>
-        <li><a href="https://www.serebii.net/">Serebii.net - Pokémon News and Information</a></li>
-        <li><a href="https://www.pokemondb.net/">Pokémon Database</a></li>
-      </ul>
-      <h2>For More Details</h2>
-      <p>Visit the official Pokémon website or check out the community resources for more information.</p>
-      <ul>
-        <li><a href="https://www.pokemon.com/">Official Pokémon Website</a></li>
-        <li><a href="https://bulbapedia.bulbagarden.net/wiki/Main_Page">Bulbapedia</a></li>
-        <li><a href="https://www.reddit.com/r/PokemonGames/">Pokémon Games Reddit</a></li>
-      </ul>
-    </section>
-    <section id="login">
-      <h2>Login</h2>
-      <p>If you have an account, please <a href="login.html">login here</a> to access exclusive content and features.</p>
-    </section>
-    </main>
-    <footer>
-      <p>&copy; 2024 City Badge Chronicles. All rights reserved.</p>
-    </footer>
-
-</body>
->>>>>>> 38fa16168b350d47de169e6c6e31928230297965
 </html>
