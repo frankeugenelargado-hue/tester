@@ -1,398 +1,238 @@
-<<<<<<< HEAD
- <html lang="en">
+<!DOCTYPE html>
+<html lang="en">
 <head>
-    <title>City Badge Chronicles</title>
-    <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>City Badge Chronicles - Hoenn</title>
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    @media (max-width: 960px) {
+      .nav {
+        width: 95%;
+      }
+      section img {
+        width: 150px;
+      }
+    }
+    @media (max-width: 720px) {
+      body { font-size: 17px; }
+      header h1 { font-size: 2.1rem; }
+      main > h1 { font-size: 2rem; }
+      section { width: 92%; margin: 28px auto; }
+      .nav a { font-size: 1.12rem; padding: 8px 12px; }
+      section ul li { font-size: 1.12rem; }
+    }
+    @media (max-width: 540px) {
+      .nav { padding: 16px; }
+      .nav li { margin: 6px 0; }
+      .nav a { font-size: 1.08rem; padding: 10px 12px; }
+      section ul li { align-items: flex-start; }
+      section ul li img { width: 80px; height: 80px; }
+    }
+  </style>
 </head>
 <body>
   <header>
     <h1>City Badge Chronicles</h1>
   </header>
+
   <main>
     <section class="intro">
       <img src="Images for the Site/Images Main/Welcome.jpg" alt="Welcome Banner">
       <div class="Welcome">
-      <h1>Welcome to City Badge Chronicles</h1>
+        <h1>Welcome to City Badge Chronicles</h1>
       </div>
     </section>
-    <main>
+
     <h1>Hoenn Region</h1>
-    <p>As usual, in Ruby/Sapphire you battle your way through 8 gyms, each specializing in a particular type. Following that you take on the Elite Four.</p>
+    <p>In Ruby/Sapphire, you battle through 8 gyms, each specializing in a particular type, then face the Elite Four.</p>
+
     <section class="nav">
-        <h2>Gym Leaders</h2>
-        <ul>
-            <li><a href="#first">Roxanne - Rustboro City - Rock Type</a></li>
-            <li><a href="#second">Brawly - Dewford Town - Fighting Type</a></li>
-            <li><a href="#third">Wattson - Mauville City - Electric Type</a></li>
-            <li><a href="#fourth">Flannery - Lavaridge Town - Fire Type</a></li>
-            <li><a href="#fifth">Norman - Petalburg City - Normal Type</a></li>
-            <li><a href="#sixth">Winona - Fortree City - Flying Type</a></li>
-            <li><a href="#seventh">Tate & Liza - Mossdeep City - Psychic Type</a></li>
-            <li><a href="#eighth">Clair - Blackthorn City - Dragon Type</a></li>
-        </ul>
-        <h2>Elite Four</h2>
-        <ul>
-            <li><a href="#ninth">Sidney - Dark Type</a></li>
-            <li><a href="#tenth">Phoebe - Ghost Type</a></li>
-            <li><a href="#eleventh">Glacia - Ice Type</a></li>
-            <li><a href="#twelfth">Drake - Dragon Type</a></li>
-        </ul>
-        <h2>Back To Home</h2>
-        <ul>
-            <li><a href="index.html">Back to Home</a></li>
-        </ul>
-    </section>
-    <h2 class="mema">Gym Leaders</h2>
-    <section class="first">
-        <h2>First Gym Leader</h2>
-        <img src="Roxanne Hoenn/Roxanne.jfif">
-        <h2 id="first">Roxanne - Rustboro City - Rock Type</h2>
-        <p>Roxanne is the first Gym Leader you will face in the Hoenn region. She specializes in Rock-type Pokémon and is known for her strong defense.</p>
-        <h3>Pokémon Team:</h3>
-        <ul>
-            <li><img src="Roxanne Hoenn/Geodude.png"> Geodude - Level 12</li>
-            <li><img src="Roxanne Hoenn/nosepass.png"> Nosepass - Level 14</li>
-        </ul>
-    </section>
-    <section class="second">
-        <h2 id="second">Brawly - Dewford Town - Fighting Type</h2>
-        <img src="Brawly Hoenn/Brawly.jfif">
-        <p>Brawly is the second Gym Leader in the Hoenn region. He specializes in Fighting-type Pokémon and uses speed and agility to his advantage.</p>
-        <h3>Pokémon Team:</h3>
-        <ul>
-            <li><img src="Brawly Hoenn/machop.png"> Machop - Level 17</li>
-            <li><img src="Brawly Hoenn/meditite.png"> Meditite - Level 20</li>
-            <li><img src="Brawly Hoenn/makuhita.png"> Makuhita - Level 19</li>
-        </ul>
-    </section>
-    <section class="third">
-        <h2 id="third">Wattson - Mauville City - Electric Type</h2>
-        <img src="Wattson Hoenn/Wattson.jfif">
-        <p>Wattson is the third Gym Leader in the Hoenn region. He specializes in Electric-type Pokémon and is known for his powerful attacks.</p>
-        <h3>Pokémon Team:</h3>
-        <ul>
-            <li><img src="Wattson Hoenn/voltorb.png"> Voltorb - Level 24</li>
-            <li><img src="Wattson Hoenn/electrike.png"> Electrike - Level 22</li>
-            <li><img src="Wattson Hoenn/manectric.png"> Manectric - Level 26</li>
-        </ul>
-    </section>
-    <section class="fourth">
-        <h2 id="fourth">Flannery - Lavaridge Town - Fire Type</h2>
-        <img src="Flannery Hoenn/Flannery.png">
-        <p>Flannery is the fourth Gym Leader in the Hoenn region. She specializes in Fire-type Pokémon and uses powerful fire attacks to overwhelm her opponents.</p>
-        <h3>Pokémon Team:</h3>
-        <ul>
-            <li><img src="Flannery Hoenn/slugma.png"> Slugma - Level 28</li>
-            <li><img src="Flannery Hoenn/numel.png"> Numel - Level 30</li>
-            <li><img src="Flannery Hoenn/camerupt.png"> Camerupt - Level 32</li>
-            <li><img src="Flannery Hoenn/torkoal.png"> Torkoal - Level 32</li>
-        </ul>
-    </section>
-    <section class="fifth">
-        <h2 id="fifth">Norman - Petalburg City - Normal Type</h2>
-        <img src="Norman Hoenn/Norman.png">
-        <p>Norman is the fifth Gym Leader in the Hoenn region. He specializes in Normal-type Pokémon and is known for his powerful physical attacks.</p>
-        <h3>Pokémon Team:</h3>
-        <ul>
-            <li><img src="Norman Hoenn/slaking.png"> Slaking - Level 31</li>
-            <li><img src="Norman Hoenn/spinda.png"> Spinda - Level 34</li>
-            <li><img src="Norman Hoenn/vigoroth.png"> Vigoroth - Level 32</li>
-        </ul>
-    </section>
-    <section class="sixth">
-        <h2 id="sixth">Winona - Fortree City - Flying Type</h2>
-        <img src="Winona Hoenn/Winona.png">
-        <p>Winona is the sixth Gym Leader in the Hoenn region. She specializes in Flying-type Pokémon and uses powerful aerial attacks to overwhelm her opponents.</p>
-        <h3>Pokémon Team:</h3>
-        <ul>
-            <li><img src="Winona Hoenn/swablu.png"> Swablu - Level 33</li>
-            <li><img src="Winona Hoenn/altaria.png"> Altaria - Level 36</li>
-            <li><img src="Winona Hoenn/pelipper.png"> Pelipper - Level 34</li>
-            <li><img src="Winona Hoenn/skarmory.png"> Skarmory - Level 38</li>
-            <li><img src="Winona Hoenn/tropius.png"> Tropius - Level 36</li>
-        </ul>
-    </section>
-    <section class="seventh">
-        <h2 id="seventh">Tate & Liza - Mossdeep City - Psychic Type</h2>
-        <img src="Tate x Liza Hoenn/Tate and Liza.png">
-        <p>Tate & Liza are the seventh Gym Leaders in the Hoenn region. They specialize in Psychic-type Pokémon and use a combination of powerful psychic attacks and evasive maneuvers.</p>
-        <h3>Pokémon Team:</h3>
-        <ul>
-            <li><img src="Tate x Liza Hoenn/claydol.png"> Claydol - Level 42</li>
-            <li><img src="Tate x Liza Hoenn/xatu.png"> Xatu - Level 35</li>
-            <li><img src="Tate x Liza Hoenn/solrock.png"> Solrock - Level 38</li>
-            <li><img src="Tate x Liza Hoenn/lunatone.png"> Lunatone - Level 40</li>
-        </ul>
-    </section>
-    <section class="eighth">
-        <h2 id="eighth">Wallace - Sootopolis City - Water Type</h2>
-        <img src="Wallace Hoenn/WALLACE.png">
-        <p>Wallace is the eighth and final Gym Leader in the Hoenn region. He specializes in Water-type Pokémon and uses a combination of powerful attacks and evasive maneuvers.</p>
-        <h3>Pokémon Team:</h3>
-        <ul>
-            <li><img src="Wallace Hoenn/100px-0350Milotic.png"> Milotic - Level 45</li>
-            <li><img src="Wallace Hoenn/100px-0340Whiscash.png"> Whiscash - Level 42</li>
-            <li><img src="Wallace Hoenn/100px-0119Seaking.png"> Seaking - Level 47</li>
-            <li><img src="Wallace Hoenn/100px-0364Sealeo.png"> Sealeo - Level 44</li>
-            <li><img src="Wallace Hoenn/Luvdisc.png"> Luvdisc - Level 46</li>
-        </ul>
-    </section>
-    <h2>Elite Four</h2>
-    <section class="ninth"> 
-        <h2 id="ninth">Sidney - Dark Type</h2>
-        <img src="Sidney Hoenn/Sidney.png">
-        <p>Sidney is the first member of the Elite Four in the Hoenn region. He specializes in Dark-type Pokémon and uses a combination of status effects and powerful dark attacks.</p>
-        <h3>Pokémon Team:</h3>
-        <ul>
-            <li><img src="Sidney Hoenn/mightyena.png"> Mightyena - Level 52</li>
-            <li><img src="Sidney Hoenn/crawdaunt.png"> Crawdaunt - Level 51</li>
-            <li><img src="Sidney Hoenn/cacturne.png"> Cacturne - Level 54</li>
-            <li><img src="Sidney Hoenn/absol.png"> Absol - Level 53</li>
-            <li><img src="Sidney Hoenn/sharpedo.png"> Sharpedo - Level 56</li>
-        </ul>
-    </section>
-    <section class="tenth">
-        <h2 id="tenth">Phoebe - Ghost Type</h2>
-        <img src="Phoebe Hoenn/Phoebe.png">
-        <p>Phoebe is the second member of the Elite Four in the Hoenn region. She specializes in Ghost-type Pokémon and uses a variety of status moves to wear down her opponents.</p>
-        <h3>Pokémon Team:</h3>
-        <ul>
-            <li><img src="Phoebe Hoenn/dusclops.png"> Dusclops - Level 51</li>
-            <li><img src="Phoebe Hoenn/banette.png"> Banette - Level 53</li>
-            <li><img src="Phoebe Hoenn/banette.png"> Banette - Level 53</li>
-            <li><img src="Phoebe Hoenn/sableye.png"> Sableye - Level 55</li>
-            <li><img src="Phoebe Hoenn/dusclops.png"> Dusclops - Level 57</li>
-        </ul>
-    </section>
-    <section class="eleventh">
-        <h2 id="eleventh">Glacia - Ice Type</h2>
-        <img src="Glacia Hoenn/Glacia.png">
-        <p>Glacia is the third member of the Elite Four in the Hoenn region. She specializes in Ice-type Pokémon and uses a variety of freezing moves to control the battlefield.</p>
-        <h3>Pokémon Team:</h3>
-        <ul>
-            <li><img src="Glacia Hoenn/sealeo.png"> Sealeo - Level 54</li>
-            <li><img src="Glacia Hoenn/glalie.png"> Glalie - Level 53</li>
-            <li><img src="Glacia Hoenn/sealeo (1).png"> Sealeo - Level 52</li>
-            <li><img src="Glacia Hoenn/walrein.png"> Walrein - Level 56</li>
-            <li><img src="Glacia Hoenn/glalie.png"> Glalie - Level 58</li>
-        </ul>
-    </section>
-    <section class="twelfth">
-        <h2 id="twelfth">Drake - Dragon Type</h2>
-        <img src="Drake Hoenn/Drake.png">
-        <p>Drake is the final member of the Elite Four in the Hoenn region. He specializes in Dragon-type Pokémon and uses powerful attacks to overwhelm his opponents.</p>
-        <h3>Pokémon Team:</h3>
-        <ul>
-            <li><img src="Drake Hoenn/shelgon.png"> Shelgon - Level 54</li>
-            <li><img src="Drake Hoenn/salamence.png"> Salamence - Level 56</li>
-            <li><img src="Drake Hoenn/kingdra.png"> Kingdra - Level 58</li>
-            <li><img src="Drake Hoenn/flygon.png"> Flygon - Level 60</li>
-            <li><img src="Drake Hoenn/altaria.png"> Altaria - Level 62</li>
-        </ul>
+      <h2>Gym Leaders</h2>
+      <ul>
+        <li><a href="#first">Roxanne - Rustboro City - Rock Type</a></li>
+        <li><a href="#second">Brawly - Dewford Town - Fighting Type</a></li>
+        <li><a href="#third">Wattson - Mauville City - Electric Type</a></li>
+        <li><a href="#fourth">Flannery - Lavaridge Town - Fire Type</a></li>
+        <li><a href="#fifth">Norman - Petalburg City - Normal Type</a></li>
+        <li><a href="#sixth">Winona - Fortree City - Flying Type</a></li>
+        <li><a href="#seventh">Tate & Liza - Mossdeep City - Psychic Type</a></li>
+        <li><a href="#eighth">Wallace - Sootopolis City - Water Type</a></li>
+      </ul>
+      <h2>Elite Four</h2>
+      <ul>
+        <li><a href="#ninth">Sidney - Dark Type</a></li>
+        <li><a href="#tenth">Phoebe - Ghost Type</a></li>
+        <li><a href="#eleventh">Glacia - Ice Type</a></li>
+        <li><a href="#twelfth">Drake - Dragon Type</a></li>
+      </ul>
+      <h2>Back To Home</h2>
+      <ul>
+        <li><a href="index.html">Back to Home</a></li>
+      </ul>
     </section>
 
-</main>
-    <footer>
-      <p>&copy; 2025 City Badge Chronicles. All rights reserved.</p>
-    </footer>
-</body>
-=======
- <html lang="en">
-<head>
-    <title>City Badge Chronicles</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-  <header>
-    <h1>City Badge Chronicles</h1>
-  </header>
-  <main>
-    <section class="intro">
-      <img src="Images/Images Main/Welcome.jpg" alt="Welcome Banner">
-      <div class="Welcome">
-      <h1>Welcome to City Badge Chronicles</h1>
-      </div>
-    </section>
-    <main>
-    <h1>Hoenn Region</h1>
-    <p>As usual, in Ruby/Sapphire you battle your way through 8 gyms, each specializing in a particular type. Following that you take on the Elite Four.</p>
-    <section class="nav">
-        <h2>Gym Leaders</h2>
-        <ul>
-            <li><a href="#first">Roxanne - Rustboro City - Rock Type</a></li>
-            <li><a href="#second">Brawly - Dewford Town - Fighting Type</a></li>
-            <li><a href="#third">Wattson - Mauville City - Electric Type</a></li>
-            <li><a href="#fourth">Flannery - Lavaridge Town - Fire Type</a></li>
-            <li><a href="#fifth">Norman - Petalburg City - Normal Type</a></li>
-            <li><a href="#sixth">Winona - Fortree City - Flying Type</a></li>
-            <li><a href="#seventh">Tate & Liza - Mossdeep City - Psychic Type</a></li>
-            <li><a href="#eighth">Clair - Blackthorn City - Dragon Type</a></li>
-        </ul>
-        <h2>Elite Four</h2>
-        <ul>
-            <li><a href="#ninth">Sidney - Dark Type</a></li>
-            <li><a href="#tenth">Phoebe - Ghost Type</a></li>
-            <li><a href="#eleventh">Glacia - Ice Type</a></li>
-            <li><a href="#twelfth">Drake - Dragon Type</a></li>
-        </ul>
-        <h2>Back To Home</h2>
-        <ul>
-            <li><a href="../index.html">Back to Home</a></li>
-        </ul>
-    </section>
     <h2 class="mema">Gym Leaders</h2>
-    <section class="first">
-        <h2>First Gym Leader</h2>
-        <img src="Images/Hoenn/Gyms/Roxanne/Roxanne.jfif">
-        <h2 id="first">Roxanne - Rustboro City - Rock Type</h2>
-        <p>Roxanne is the first Gym Leader you will face in the Hoenn region. She specializes in Rock-type Pokémon and is known for her strong defense.</p>
-        <h3>Pokémon Team:</h3>
-        <ul>
-            <li><img src="Images/Hoenn/Gyms/Roxanne/Geodude.png"> Geodude - Level 12</li>
-            <li><img src="Images/Hoenn/Gyms/Roxanne/nosepass.png"> Nosepass - Level 14</li>
-        </ul>
-    </section>
-    <section class="second">
-        <h2 id="second">Brawly - Dewford Town - Fighting Type</h2>
-        <img src="Images/Hoenn/Gyms/Brawly/Brawly.jfif">
-        <p>Brawly is the second Gym Leader in the Hoenn region. He specializes in Fighting-type Pokémon and uses speed and agility to his advantage.</p>
-        <h3>Pokémon Team:</h3>
-        <ul>
-            <li><img src="Images/Hoenn/Gyms/Brawly/Machop.png"> Machop - Level 17</li>
-            <li><img src="Images/Hoenn/Gyms/Brawly/meditite.png"> Meditite - Level 20</li>
-            <li><img src="Images/Hoenn/Gyms/Brawly/makuhita.png"> Makuhita - Level 19</li>
-        </ul>
-    </section>
-    <section class="third">
-        <h2 id="third">Wattson - Mauville City - Electric Type</h2>
-        <img src="Images/Hoenn/Gyms/Wattson/Wattson.jfif">
-        <p>Wattson is the third Gym Leader in the Hoenn region. He specializes in Electric-type Pokémon and is known for his powerful attacks.</p>
-        <h3>Pokémon Team:</h3>
-        <ul>
-            <li><img src="Images/Hoenn/Gyms/Wattson/Voltorb.png"> Voltorb - Level 24</li>
-            <li><img src="Images/Hoenn/Gyms/Wattson/electrike.png"> Electrike - Level 22</li>
-            <li><img src="Images/Hoenn/Gyms/Wattson/Manectric.png"> Manectric - Level 26</li>
-        </ul>
-    </section>
-    <section class="fourth">
-        <h2 id="fourth">Flannery - Lavaridge Town - Fire Type</h2>
-        <img src="Images/Hoenn/Gyms/Flannery/Flannery.png">
-        <p>Flannery is the fourth Gym Leader in the Hoenn region. She specializes in Fire-type Pokémon and uses powerful fire attacks to overwhelm her opponents.</p>
-        <h3>Pokémon Team:</h3>
-        <ul>
-            <li><img src="Images/Hoenn/Gyms/Flannery/slugma.png"> Slugma - Level 28</li>
-            <li><img src="Images/Hoenn/Gyms/Flannery/numel.png"> Numel - Level 30</li>
-            <li><img src="Images/Hoenn/Gyms/Flannery/camerupt.png"> Camerupt - Level 32</li>
-            <li><img src="Images/Hoenn/Gyms/Flannery/torkoal.png"> Torkoal - Level 32</li>
-        </ul>
-    </section>
-    <section class="fifth">
-        <h2 id="fifth">Norman - Petalburg City - Normal Type</h2>
-        <img src="Images/Hoenn/Gyms/Norman/Norman.png">
-        <p>Norman is the fifth Gym Leader in the Hoenn region. He specializes in Normal-type Pokémon and is known for his powerful physical attacks.</p>
-        <h3>Pokémon Team:</h3>
-        <ul>
-            <li><img src="Images/Hoenn/Gyms/Norman/slaking.png"> Slaking - Level 31</li>
-            <li><img src="Images/Hoenn/Gyms/Norman/spinda.png"> Spinda - Level 34</li>
-            <li><img src="Images/Hoenn/Gyms/Norman/vigoroth.png"> Vigoroth - Level 32</li>
-        </ul>
-    </section>
-    <section class="sixth">
-        <h2 id="sixth">Winona - Fortree City - Flying Type</h2>
-        <img src="Images/Hoenn/Gyms/Winona/Winona.png">
-        <p>Winona is the sixth Gym Leader in the Hoenn region. She specializes in Flying-type Pokémon and uses powerful aerial attacks to overwhelm her opponents.</p>
-        <h3>Pokémon Team:</h3>
-        <ul>
-            <li><img src="Images/Hoenn/Gyms/Winona/Swablu.png"> Swablu - Level 33</li>
-            <li><img src="Images/Hoenn/Gyms/Winona/Altaria.png"> Altaria - Level 36</li>
-            <li><img src="Images/Hoenn/Gyms/Winona/Pelipper.png"> Pelipper - Level 34</li>
-            <li><img src="Images/Hoenn/Gyms/Winona/Skarmory.png"> Skarmory - Level 38</li>
-            <li><img src="Images/Hoenn/Gyms/Winona/Tropius.png"> Tropius - Level 36</li>
-        </ul>
-    </section>
-    <section class="seventh">
-        <h2 id="seventh">Tate & Liza - Mossdeep City - Psychic Type</h2>
-        <img src="Images/Hoenn/Gyms/Tate x Liza/Tate and Liza.png">
-        <p>Tate & Liza are the seventh Gym Leaders in the Hoenn region. They specialize in Psychic-type Pokémon and use a combination of powerful psychic attacks and evasive maneuvers.</p>
-        <h3>Pokémon Team:</h3>
-        <ul>
-            <li><img src="Images/Hoenn/Gyms/Tate x Liza/claydol.png"> Claydol - Level 42</li>
-            <li><img src="Images/Hoenn/Gyms/Tate x Liza/xatu.png"> Xatu - Level 35</li>
-            <li><img src="Images/Hoenn/Gyms/Tate x Liza/solrock.png"> Solrock - Level 38</li>
-            <li><img src="Images/Hoenn/Gyms/Tate x Liza/lunatone.png"> Lunatone - Level 40</li>
-        </ul>
-    </section>
-    <section class="eighth">
-        <h2 id="eighth">Wallace - Sootopolis City - Water Type</h2>
-        <img src="Images/Hoenn/Gyms/Wallace/WALLACE.png">
-        <p>Wallace is the eighth and final Gym Leader in the Hoenn region. He specializes in Water-type Pokémon and uses a combination of powerful attacks and evasive maneuvers.</p>
-        <h3>Pokémon Team:</h3>
-        <ul>
-            <li><img src="Images/Hoenn/Gyms/Wallace/100px-0350Milotic.png"> Milotic - Level 45</li>
-            <li><img src="Images/Hoenn/Gyms/Wallace/100px-0340Whiscash.png"> Whiscash - Level 42</li>
-            <li><img src="Images/Hoenn/Gyms/Wallace/100px-0119Seaking.png"> Seaking - Level 47</li>
-            <li><img src="Images/Hoenn/Gyms/Wallace/100px-0364Sealeo.png"> Sealeo - Level 44</li>
-            <li><img src="Images/Hoenn/Gyms/Wallace/Luvdisc.png"> Luvdisc - Level 46</li>
-        </ul>
-    </section>
-    <h2>Elite Four</h2>
-    <section class="ninth"> 
-        <h2 id="ninth">Sidney - Dark Type</h2>
-        <img src="Images/Hoenn/Gyms/Sidney/Sidney.png">
-        <p>Sidney is the first member of the Elite Four in the Hoenn region. He specializes in Dark-type Pokémon and uses a combination of status effects and powerful dark attacks.</p>
-        <h3>Pokémon Team:</h3>
-        <ul>
-            <li><img src="Images/Hoenn/Gyms/Sidney/mightyena.png"> Mightyena - Level 52</li>
-            <li><img src="Images/Hoenn/Gyms/Sidney/crawdaunt.png"> Crawdaunt - Level 51</li>
-            <li><img src="Images/Hoenn/Gyms/Sidney/cacturne.png"> Cacturne - Level 54</li>
-            <li><img src="Images/Hoenn/Gyms/Sidney/absol.png"> Absol - Level 53</li>
-            <li><img src="Images/Hoenn/Gyms/Sidney/sharpedo.png"> Sharpedo - Level 56</li>
-        </ul>
-    </section>
-    <section class="tenth">
-        <h2 id="tenth">Phoebe - Ghost Type</h2>
-        <img src="Images/Hoenn/Gyms/Phoebe/Phoebe.png">
-        <p>Phoebe is the second member of the Elite Four in the Hoenn region. She specializes in Ghost-type Pokémon and uses a variety of status moves to wear down her opponents.</p>
-        <h3>Pokémon Team:</h3>
-        <ul>
-            <li><img src="Images/Hoenn/Gyms/Phoebe/dusclops.png"> Dusclops - Level 51</li>
-            <li><img src="Images/Hoenn/Gyms/Phoebe/banette.png"> Banette - Level 53</li>
-            <li><img src="Images/Hoenn/Gyms/Phoebe/banette.png"> Banette - Level 53</li>
-            <li><img src="Images/Hoenn/Gyms/Phoebe/sableye.png"> Sableye - Level 55</li>
-            <li><img src="Images/Hoenn/Gyms/Phoebe/dusclops.png"> Dusclops - Level 57</li>
-        </ul>
-    </section>
-    <section class="eleventh">
-        <h2 id="eleventh">Glacia - Ice Type</h2>
-        <img src="Images/Hoenn/Gyms/Glacia/Glacia.png">
-        <p>Glacia is the third member of the Elite Four in the Hoenn region. She specializes in Ice-type Pokémon and uses a variety of freezing moves to control the battlefield.</p>
-        <h3>Pokémon Team:</h3>
-        <ul>
-            <li><img src="Images/Hoenn/Gyms/Glacia/sealeo.png"> Sealeo - Level 54</li>
-            <li><img src="Images/Hoenn/Gyms/Glacia/glalie.png"> Glalie - Level 53</li>
-            <li><img src="Images/Hoenn/Gyms/Glacia/sealeo (1).png"> Sealeo - Level 52</li>
-            <li><img src="Images/Hoenn/Gyms/Glacia/walrein.png"> Walrein - Level 56</li>
-            <li><img src="Images/Hoenn/Gyms/Glacia/glalie.png"> Glalie - Level 58</li>
-        </ul>
-    </section>
-    <section class="twelfth">
-        <h2 id="twelfth">Drake - Dragon Type</h2>
-        <img src="Images/Hoenn/Gyms/Drake/Drake.png">
-        <p>Drake is the final member of the Elite Four in the Hoenn region. He specializes in Dragon-type Pokémon and uses powerful attacks to overwhelm his opponents.</p>
-        <h3>Pokémon Team:</h3>
-        <ul>
-            <li><img src="Images/Hoenn/Gyms/Drake/shelgon.png"> Shelgon - Level 54</li>
-            <li><img src="Images/Hoenn/Gyms/Drake/salamence.png"> Salamence - Level 56</li>
-            <li><img src="Images/Hoenn/Gyms/Drake/kingdra.png"> Kingdra - Level 58</li>
-            <li><img src="Images/Hoenn/Gyms/Drake/flygon.png"> Flygon - Level 60</li>
-            <li><img src="Images/Hoenn/Gyms/Drake/altaria.png"> Altaria - Level 62</li>
-        </ul>
+
+    <section class="first" id="first">
+      <h2>Roxanne - Rustboro City - Rock Type</h2>
+      <img src="Roxanne Hoenn/Roxanne.jfif" alt="Roxanne">
+      <p>Roxanne is the first Gym Leader in Hoenn, specializing in Rock-type Pokémon and strong defense.</p>
+      <h3>Pokémon Team:</h3>
+      <ul>
+        <li><img src="Roxanne Hoenn/Geodude.png" alt="Geodude"> Geodude - Level 12</li>
+        <li><img src="Roxanne Hoenn/nosepass.png" alt="Nosepass"> Nosepass - Level 14</li>
+      </ul>
     </section>
 
-</main>
-    <footer>
-      <p>&copy; 2025 City Badge Chronicles. All rights reserved.</p>
-    </footer>
+    <section class="second" id="second">
+      <h2>Brawly - Dewford Town - Fighting Type</h2>
+      <img src="Brawly Hoenn/Brawly.jfif" alt="Brawly">
+      <p>Brawly specializes in Fighting-type Pokémon and uses speed and agility.</p>
+      <h3>Pokémon Team:</h3>
+      <ul>
+        <li><img src="Brawly Hoenn/machop.png" alt="Machop"> Machop - Level 17</li>
+        <li><img src="Brawly Hoenn/meditite.png" alt="Meditite"> Meditite - Level 20</li>
+        <li><img src="Brawly Hoenn/makuhita.png" alt="Makuhita"> Makuhita - Level 19</li>
+      </ul>
+    </section>
+
+    <section class="third" id="third">
+      <h2>Wattson - Mauville City - Electric Type</h2>
+      <img src="Wattson Hoenn/Wattson.jfif" alt="Wattson">
+      <p>Wattson is known for Electric-type Pokémon and powerful electric attacks.</p>
+      <h3>Pokémon Team:</h3>
+      <ul>
+        <li><img src="Wattson Hoenn/voltorb.png" alt="Voltorb"> Voltorb - Level 24</li>
+        <li><img src="Wattson Hoenn/electrike.png" alt="Electrike"> Electrike - Level 22</li>
+        <li><img src="Wattson Hoenn/manectric.png" alt="Manectric"> Manectric - Level 26</li>
+      </ul>
+    </section>
+
+    <section class="fourth" id="fourth">
+      <h2>Flannery - Lavaridge Town - Fire Type</h2>
+      <img src="Flannery Hoenn/Flannery.png" alt="Flannery">
+      <p>Flannery specializes in Fire-type Pokémon and powerful fire attacks.</p>
+      <h3>Pokémon Team:</h3>
+      <ul>
+        <li><img src="Flannery Hoenn/slugma.png" alt="Slugma"> Slugma - Level 28</li>
+        <li><img src="Flannery Hoenn/numel.png" alt="Numel"> Numel - Level 30</li>
+        <li><img src="Flannery Hoenn/camerupt.png" alt="Camerupt"> Camerupt - Level 32</li>
+        <li><img src="Flannery Hoenn/torkoal.png" alt="Torkoal"> Torkoal - Level 32</li>
+      </ul>
+    </section>
+
+    <section class="fifth" id="fifth">
+      <h2>Norman - Petalburg City - Normal Type</h2>
+      <img src="Norman Hoenn/Norman.png" alt="Norman">
+      <p>Norman specializes in Normal-type Pokémon and strong physical attacks.</p>
+      <h3>Pokémon Team:</h3>
+      <ul>
+        <li><img src="Norman Hoenn/slaking.png" alt="Slaking"> Slaking - Level 31</li>
+        <li><img src="Norman Hoenn/spinda.png" alt="Spinda"> Spinda - Level 34</li>
+        <li><img src="Norman Hoenn/vigoroth.png" alt="Vigoroth"> Vigoroth - Level 32</li>
+      </ul>
+    </section>
+
+    <section class="sixth" id="sixth">
+      <h2>Winona - Fortree City - Flying Type</h2>
+      <img src="Winona Hoenn/Winona.png" alt="Winona">
+      <p>Winona specializes in Flying-type Pokémon and aerial attacks.</p>
+      <h3>Pokémon Team:</h3>
+      <ul>
+        <li><img src="Winona Hoenn/swablu.png" alt="Swablu"> Swablu - Level 33</li>
+        <li><img src="Winona Hoenn/altaria.png" alt="Altaria"> Altaria - Level 36</li>
+        <li><img src="Winona Hoenn/pelipper.png" alt="Pelipper"> Pelipper - Level 34</li>
+        <li><img src="Winona Hoenn/skarmory.png" alt="Skarmory"> Skarmory - Level 38</li>
+        <li><img src="Winona Hoenn/tropius.png" alt="Tropius"> Tropius - Level 36</li>
+      </ul>
+    </section>
+
+    <section class="seventh" id="seventh">
+      <h2>Tate & Liza - Mossdeep City - Psychic Type</h2>
+      <img src="Tate x Liza Hoenn/Tate and Liza.png" alt="Tate & Liza">
+      <p>Tate & Liza use Psychic-type Pokémon with evasive maneuvers.</p>
+      <h3>Pokémon Team:</h3>
+      <ul>
+        <li><img src="Tate x Liza Hoenn/claydol.png" alt="Claydol"> Claydol - Level 42</li>
+        <li><img src="Tate x Liza Hoenn/xatu.png" alt="Xatu"> Xatu - Level 35</li>
+        <li><img src="Tate x Liza Hoenn/solrock.png" alt="Solrock"> Solrock - Level 38</li>
+        <li><img src="Tate x Liza Hoenn/lunatone.png" alt="Lunatone"> Lunatone - Level 40</li>
+      </ul>
+    </section>
+
+    <section class="eighth" id="eighth">
+      <h2>Wallace - Sootopolis City - Water Type</h2>
+      <img src="Wallace Hoenn/WALLACE.png" alt="Wallace">
+      <p>Wallace specializes in Water-type Pokémon with powerful attacks.</p>
+      <h3>Pokémon Team:</h3>
+      <ul>
+        <li><img src="Wallace Hoenn/100px-0350Milotic.png" alt="Milotic"> Milotic - Level 45</li>
+        <li><img src="Wallace Hoenn/100px-0340Whiscash.png" alt="Whiscash"> Whiscash - Level 42</li>
+        <li><img src="Wallace Hoenn/100px-0119Seaking.png" alt="Seaking"> Seaking - Level 47</li>
+        <li><img src="Wallace Hoenn/100px-0364Sealeo.png" alt="Sealeo"> Sealeo - Level 44</li>
+        <li><img src="Wallace Hoenn/Luvdisc.png" alt="Luvdisc"> Luvdisc - Level 46</li>
+      </ul>
+    </section>
+
+    <h2>Elite Four</h2>
+
+    <section class="ninth" id="ninth">
+      <h2>Sidney - Dark Type</h2>
+      <img src="Sidney Hoenn/Sidney.png" alt="Sidney">
+      <p>Sidney specializes in Dark-type Pokémon and uses status effects.</p>
+      <h3>Pokémon Team:</h3>
+      <ul>
+        <li><img src="Sidney Hoenn/mightyena.png" alt="Mightyena"> Mightyena - Level 52</li>
+        <li><img src="Sidney Hoenn/crawdaunt.png" alt="Crawdaunt"> Crawdaunt - Level 51</li>
+        <li><img src="Sidney Hoenn/cacturne.png" alt="Cacturne"> Cacturne - Level 54</li>
+        <li><img src="Sidney Hoenn/absol.png" alt="Absol"> Absol - Level 53</li>
+        <li><img src="Sidney Hoenn/sharpedo.png" alt="Sharpedo"> Sharpedo - Level 56</li>
+      </ul>
+    </section>
+
+    <section class="tenth" id="tenth">
+      <h2>Phoebe - Ghost Type</h2>
+      <img src="Phoebe Hoenn/Phoebe.png" alt="Phoebe">
+      <p>Phoebe uses Ghost-type Pokémon and status moves.</p>
+      <h3>Pokémon Team:</h3>
+      <ul>
+        <li><img src="Phoebe Hoenn/dusclops.png" alt="Dusclops"> Dusclops - Level 51</li>
+        <li><img src="Phoebe Hoenn/banette.png" alt="Banette"> Banette - Level 53</li>
+        <li><img src="Phoebe Hoenn/sableye.png" alt="Sableye"> Sableye - Level 55</li>
+        <li><img src="Phoebe Hoenn/dusclops.png" alt="Dusclops"> Dusclops - Level 57</li>
+      </ul>
+    </section>
+
+    <section class="eleventh" id="eleventh">
+      <h2>Glacia - Ice Type</h2>
+      <img src="Glacia Hoenn/Glacia.png" alt="Glacia">
+      <p>Glacia uses Ice-type Pokémon to control the battlefield.</p>
+      <h3>Pokémon Team:</h3>
+      <ul>
+        <li><img src="Glacia Hoenn/sealeo.png" alt="Sealeo"> Sealeo - Level 54</li>
+        <li><img src="Glacia Hoenn/glalie.png" alt="Glalie"> Glalie - Level 53</li>
+        <li><img src="Glacia Hoenn/walrein.png" alt="Walrein"> Walrein - Level 56</li>
+      </ul>
+    </section>
+
+    <section class="twelfth" id="twelfth">
+      <h2>Drake - Dragon Type</h2>
+      <img src="Drake Hoenn/Drake.png" alt="Drake">
+      <p>Drake uses Dragon-type Pokémon and powerful attacks.</p>
+      <h3>Pokémon Team:</h3>
+      <ul>
+        <li><img src="Drake Hoenn/shelgon.png" alt="Shelgon"> Shelgon - Level 54</li>
+        <li><img src="Drake Hoenn/salamence.png" alt="Salamence"> Salamence - Level 56</li>
+        <li><img src="Drake Hoenn/kingdra.png" alt="Kingdra"> Kingdra - Level 58</li>
+        <li><img src="Drake Hoenn/flygon.png" alt="Flygon"> Flygon - Level 60</li>
+        <li><img src="Drake Hoenn/altaria.png" alt="Altaria"> Altaria - Level 62</li>
+      </ul>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 City Badge Chronicles. All rights reserved.</p>
+  </footer>
 </body>
->>>>>>> 38fa16168b350d47de169e6c6e31928230297965
 </html>

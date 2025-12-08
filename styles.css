@@ -223,11 +223,12 @@ footer {
   }
 
   .nav a {
-    font-size: 1.05rem;
+    font-size: 1.12rem;
+    padding: 8px 12px;
   }
 
   section ul li {
-    font-size: 1.1rem;
+    font-size: 1.12rem;
   }
 }
 
@@ -238,6 +239,11 @@ footer {
 
   .nav li {
     margin: 6px 0;
+  }
+
+  .nav a {
+    font-size: 1.08rem;
+    padding: 10px 12px;
   }
 
   section ul li {
